@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtualenv
+venv/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+static/  # Csak ha nem gyűjtöd verziókontrollban a buildelt statikus fájlokat
+
+# Environment
+.env
+
+# VSCode
+.vscode/
